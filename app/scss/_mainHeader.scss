@@ -1,13 +1,74 @@
-/*------------------------------------*\
-    #Header
-\*------------------------------------*/
-
 .main-header {
-  padding-top: 12.5rem;
-  padding-bottom: 0rem;
+background-color: #35373C;
+position: relative;
+padding: 4rem;
+color: #fff;
+}
+.main-header .dearsg {
+padding-top: 2rem;
 }
 @media (max-width: 812px) {
 	.main-header {
-  padding-top: 9rem;
-  padding-bottom: 0rem;
+	padding: 2rem;
+	}
+	.main-header h1 {
+	font-size: 28px;
+	}
+	.main-header .dearsg {
+	padding-top: 0;
+	}
+}
+
+
+.cta {
+	padding-top: 5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+@media (max-width: 812px) {
+	.cta {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	}
+}
+
+.open-letter-text {
+	padding: 5rem;
+}
+@media (max-width: 812px) {
+.open-letter-text {
+	padding: 2rem;
+	}
+}
+
+.line-top {
+	border-left: 1px solid #D8D0D0; 
+	border-right: 1px solid #D8D0D0; 
+	border-top: 1px solid #D8D0D0;
+}
+	@media (max-width: 812px) {
+.line-top {
+	border-left: 0px solid #D8D0D0; 
+	border-right: 0px solid #D8D0D0; 
+	border-top: 0px solid #D8D0D0;
 } }
+
+.line-bot {
+	border-left: 1px solid #D8D0D0; 
+	border-right: 1px solid #D8D0D0; 
+	border-bottom: 1px solid #D8D0D0;
+}
+	@media (max-width: 812px) {
+.line-bot {
+	border-left: 0px solid #D8D0D0; 
+	border-right: 0px solid #D8D0D0; 
+	border-bottom: 0px solid #D8D0D0;
+} }
+
+.sponsors {
+background-color: #FFF;
+position: relative;
+padding: 2rem;
+}

@@ -1,0 +1,85 @@
+/*------------------------------------*\
+    #About the File
+\*------------------------------------*/
+/*
+	Author 						Farrah Fazirah, WWF-Singapore
+	Tools 						Sublime Text 3
+	Approaches 					OOCSS, BEM
+	Site Generated with			Browsersync, Gulp
+ */
+
+
+/*------------------------------------*\
+    
+    #Base
+
+\*------------------------------------*/
+
+$body-bg:                   #F8F8F7 !default;
+$body-color:                #35373C !default;
+$font-family-sans-serif:    'Mulish', sans-serif;
+$font-family-serif:         'Libre Baskerville', serif;
+$font-family-base:          $font-family-sans-serif !default;
+
+$navbar-dark-toggler-border-color:  transparent !default;
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+$primary:       #B47F57 !default;
+
+ .btn-outline-primary {
+  color: white;
+  border-color: #B47F57;
+}
+
+.btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active {
+  background-color: #B47F57;
+  color: #FFF;
+  border-color: transparent;
+}
+
+
+/*------------------------------------*\
+    
+    #Typography
+
+\*------------------------------------*/
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-sm:                $font-size-base * .875 !default;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-weight-base:            $font-weight-normal !default;
+$line-height-base:            1.5 !default;
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+$headings-font-family:        'Libre Baskerville', serif !default;
+
+
+/*------------------------------------*\
+    
+    #Footer
+
+\*------------------------------------*/
+
+.footer {
+  padding: 2rem;
+  color: #fff;
+  background-color: #35373C;
+}
+
